@@ -2746,17 +2746,16 @@ var shovelerView_ShovelerView = function (_Component) {
             },
             onKeyUp: function onKeyUp(e) {
               return _this2.handleOnKeyUp(e, item);
-            }
-            // onClick={e => {
-            //   //   setVideoPlayerData({ src: liveStreamMockUrl });
-            //   setVideoPlayerData({
-            //     src:
-            //       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-            //   });
+            },
+            onClick: function onClick(e) {
+              //   setVideoPlayerData({ src: liveStreamMockUrl });
+              setVideoPlayerData({
+                src: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+              });
 
-            //   //   route("/videoplayer");
-            //   //   this.setState({ playVideo: true, src: liveStreamMockUrl });
-            // }}
+              //   route("/videoplayer");
+              //   this.setState({ playVideo: true, src: liveStreamMockUrl });
+            }
           },
           Object(preact_min["h"])("img", {
             className: shovelerView_default.a.imageClass,
